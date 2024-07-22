@@ -1,0 +1,10 @@
+#menu .card {
+    /* height: 250px; */
+    object-fit: cover;
+    padding: 10px;
+    margin: 15px;
+}
+
+#menu .card img {
+    height: 200px;
+}

@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+#header #logo img {
+    width: 70px;
+    height: 70px;
+}
+
+#header ul li {
+    padding: 0px 30px;
+}
+
+#header ul li:hover {
+    text-decoration: underline;
+}
+
+#header form input, #header form button {
+    border-radius: 25px;
+}
+
+#navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#carousel {
+    margin-bottom: 40px;
+}
+
+.sliderimg {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+body h2 {
+    margin: 30px 0px;
+    width: 100%;
+}
+
+#handcrafts .card {
+    border: none;
+}
+
+#handcrafts .col img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 0px auto;
+}
+
+#handcrafts .col img:hover {
+    outline: 5px solid #508C9B;
+    scale: 0.95;
+    cursor: pointer;
+}
+
+body {
+    padding-top: 100px;
+}
+
+#learnmorediv {
+    background-color: #edebe9;
+    padding: 50px 0px;
+    margin: 20px 0px 50px 0px;
+}
+
+#learnmore {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#learnmore .mask {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socialicon {
+    text-decoration: none;
+}
+
+.socialicon:hover {
+    color: #508C9B;
+}
+
+#menuBtn {
+    background-color: #508C9B;
+    color: white;
+    border: 2px solid white;
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#menuBtn:hover {
+    background-color: white;
+    color: #508C9B;
+    cursor: pointer;
+}
